@@ -1,0 +1,20 @@
+### http://localhost:7000/
+http://localhost:7000/partlog/00024cbf054b6f1704ed2eb08c1d31b7
+Authorization: Basic b2xlZy5uYWdvcm5pakBnbWFpbC5jb206Y29ybmVyNTc4
+
+### http://localhost:7000/partlog/
+http://localhost:7000/partlog/?$filter=UpdatedAt%20gt%20%272019-03-27%27%20group%20by%20ID&$top=3
+Authorization: Basic b2xlZy5uYWdvcm5pakBnbWFpbC5jb206Y29ybmVyNTc4
+
+### http://localhost:7000/
+http://localhost:7000/
+Authorization: Basic b2xlZy5uYWdvcm5pakBnbWFpbC5jb206Y29ybmVyNTc4
+
+### http://localhost:7000/partlog
+http://localhost:7000/partlog
+Authorization: Basic b2xlZy5uYWdvcm5pakBnbWFpbC5jb206Y29ybmVyNTc4
+
+# get last days statistics
+### http://localhost:7000/partlog/?$stat=10
+http://localhost:7000/partlog/?$stat=10
+Authorization: Basic b2xlZy5uYWdvcm5pakBnbWFpbC5jb206Y29ybmVyNTc4
